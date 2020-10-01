@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+	<html lang="sv">
+	<body bgcolor="black" text="White" vlink="Yellow" link="Green" alink="Green">
+<head>
+    <title>Var god att fyll i formuläret</title>
+</head>
+<Body>
+    
+
+
+<p>
+  
+    <fieldset style="width: 20%;">
+        <b>Vi har många anställda på företaget, <br>
+            vi kommer nu be er fylla i denna enkät.</p>b>
+    
+        <legend>FORMULÄR </legend>
+    <form name="formular" id="formular" method="post" action="mail@ddd.com" >
+    <label for="Name">Namn:</label> <br>
+    <input type="text" name="name" id="name" size="35"/> <br>
+    <label for="Position">Din Position i företaget:</label> <br>
+    <input type="text" name="Position" id="Position" size="35" maxlength="20"/> <br>
+    <label for="sport"><i>Tränar någon sport?</i></label> <br>
+    <input type="radio" name="sport" value="Ja"> Ja
+    <input type="radio" name="sport" value="Nej">Nej<br>
+    <label for="intresse"><b></b><i>Vilka sätt föredrar du läsa om intressanta saker?</i></b></label> <br>
+    <input type="checkbox" name="intresse" value="tidning"> Tidning
+    <input type="checkbox" name="intresse" value="bocker"> Böcker
+    <input type="checkbox" name="intresse" value="online">Online<br>
+    <label for="film">Din favoritgenre i film?</label> <br>
+    <select name="film" size="1">
+        <option>Action
+        <option>Romantik
+        <option>Komedi
+            <option>Drama
+                <option>Skräck
+        </select><br>
+    
+    <label for="epost">E-postadress:</label> <br>
+    <input type="text" name="epost" id="epost" size="35"/> <br>
+    <label for="om">Lite info om dig?:</label> <br>
+    <textarea name="om" id="om" cols="30" rows="4"></textarea> <br>
+    <label for="skicka"></label>
+    <input type="submit" name="skicka" id="skicka" value="Skicka in svar" />
+    
+
+    
+    </form>
+</fieldset>
+
+</Body>
+</html>
