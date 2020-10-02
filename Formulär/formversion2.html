@@ -24,8 +24,8 @@
         <label for="Position">Din Position i företaget(max 20 tecken):</label> <br>
     <input type="text" name="Position" id="Position" size="35" maxlength="20" placeholder="Position"/> <br>
     <label for="sport"><i>Tränar någon sport?</i></label> <br>
-    <input type="radio" name="sport" value="Ja" placeholder="Ja"> Ja
-    <input type="radio" name="sport" value="Nej" placeholder="Nej">Nej<br>
+    <input type="radio" name="sport" value="Ja" placeholder="Ja"id="ja"> Ja
+    <input type="radio" name="sport" value="Nej" placeholder="Nej" id="nej">Nej<br>
     <label for="intresse"><b></b><i>Vilka sätt föredrar du läsa om intressanta saker?</i></b></label> <br>
     <input type="checkbox" name="intresse" value="tidning" placeholder="Tidning"> Tidning
     <input type="checkbox" name="intresse" value="bocker" placeholder="Böcker"> Böcker
@@ -38,9 +38,10 @@
             <option>Drama
                 <option>Skräck
         </select><br>
-        
-        <label for="epost">E-postadress:</label>
-        <input type="email" name="email" id="email" placeholder="din e-postadress">
+        <label for="om">Lite info om dig?:</label> <br>
+    <textarea name="om" id="om" placeholder="om"></textarea><br>
+        <label for="epost">E-postadress:</label><br>
+        <input name="email" type="email" id="email" placeholder="din e-postadress">
         <br>
         
         <input type="submit" name="skicka" id="skicka" value="Skicka in enkät" />

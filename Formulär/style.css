@@ -18,9 +18,7 @@ body {
     
 #formular input[type=text],
 #formular input[type=email]
-#formular input[type=radio]
-#formular input[type=checkbox]
-#formular input[type=email]
+
 {
 
     width: 100%;
@@ -44,8 +42,27 @@ border-radius: 4px;
 cursor: pointer;
 font-size: 18px;
 }
+#formular textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 0 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 18px;
+    }
+    #formular select {
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(242,242,242,1.00);
+        font-size: 16px;
+        }
 
-#formular input[type=submit]:hover {
+    #formular input[type=submit]:hover {
 background-color: rgba(101,151,222,1.00);
 }
 
