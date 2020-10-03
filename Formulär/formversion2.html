@@ -31,14 +31,15 @@
     <input type="checkbox" name="intresse" value="bocker" placeholder="Böcker"> Böcker
     <input type="checkbox" name="intresse" value="online" placeholder="Online">Online<br>
     <label for="film">Din favoritgenre i film?</label>
-    <select name="film" size="1" placeholder="film">
-       <option>Välj en gener</option>
-	    <option>Action</option>
-        <option>Romantik</option>
-        <option>Komedi</option>
-            <option>Drama</option>
-                <option>Skräck</option>
-        </select><br>
+       <input list="film">
+
+<datalist id="film">
+<option value="Action">
+<option value="Romantik">
+<option value="Komedi">
+<option value="Drama">
+    <option value="Skräck">
+</datalist><br>
         <label for="om">Lite info om dig?:</label> <br>
     <textarea name="om" id="om" placeholder="om"></textarea><br>
         <label for="epost">E-postadress:</label><br>
