@@ -1,0 +1,35 @@
+select {
+	background-color: rgb(184, 184, 184);
+    width: 380px;
+}
+textarea{
+    position: relative;
+width:420px
+
+}
+
+img{
+    border-radius: 2px;
+}
+#last {
+    width: 340px;   
+    background-color: rgb(184, 184, 184);
+}
+
+#first {
+    width: 350px;   
+    background-color: rgb(184, 184, 184);
+}
+
+#man{
+    width: 150px;  
+    background-color: rgb(184, 184, 184);
+}
+#kvinna{
+    width: 120px; 
+    background-color: rgb(184, 184, 184);
+}
+#epost {
+    width: 370px;   
+    background-color: rgb(184, 184, 184);
+}
