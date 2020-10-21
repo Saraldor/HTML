@@ -1,0 +1,111 @@
+body {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		background: url(./Media/bglinux.png) no-repeat top left fixed;
+	}
+.meny{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	margin: 0; 
+	background: #e0daff;
+	width: 600px;
+	height: 50px;
+	border: 3px outset white;
+	border-radius: 7px;
+
+}
+
+.meny a {
+	text-decoration: none;
+	display: block;
+	padding: 0.8em;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px silver;
+	font-weight: bold;
+	text-transform: UPPERCASE;
+}
+
+.meny a:hover {
+	border: 1px outset white;
+	border-radius: 15px;
+}	
+main {
+	margin: 5px;
+	padding: 0px 35px 0px 35px;
+	background: #e0daff;
+	border: 3px outset white;
+	position: absolute;
+	width: 600px;
+	top: 60px;
+	box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px silver;
+	border-radius: 7px;
+}
+
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+}
+.distro {
+	font-size: 120%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px silver;
+	font-weight: bold;
+	text-transform: UPPERCASE;
+	text-align: center;
+	position: absolute;
+	z-index: 10;
+	top: 50px;
+	left: 100px;
+	text-decoration: none;
+	display: block;
+}
+.more {
+	position:static;
+	border: 3px inset grey;
+	box-shadow: 0 0 2px 1px slategray;
+	margin:0  40px 40px 40px;
+
+}
+.val {
+	position: relative;
+	border: 3px inset grey;
+	box-shadow: 0 0 2px 1px slategray;
+    margin: 40px 0 0 40px;	
+
+}
+@media all and (max-width: 800px) {
+	.nav {
+		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 600px) {
+.nav {
+		flex-flow: column wrap;
+		padding: 0;
+}
+.nav a { 
+		text-align: center; 
+		padding: 10px;
+		border-top: 1px solid rgba(255, 255, 255,0.3); 
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.nav li:last-of-type a {
+		border-bottom: none;
+		}		
+}
+.box{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-style: normal;
+
+}
