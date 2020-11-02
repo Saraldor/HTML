@@ -1,0 +1,35 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+ 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #003666;
+  text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+  color: #004683;
+  text-decoration: underline;
+}
